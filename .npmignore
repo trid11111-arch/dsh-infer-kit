@@ -1,0 +1,19 @@
+# Ignore everything
+*
+
+# But not these files
+!index.js
+!client.js
+!package.json
+!cordis.patch.yml
+!README.md
+!LICENSE
+
+# Extra ignores
+.git*
+.github
+test
+*.log
+.npmrc
+issue-body.json
+publish-npm.js

@@ -1,9 +1,16 @@
 {
   "name": "dsh-infer-kit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Inference toolkit for DeepSeek Harness — semantic cache, draft cascade, and JSON validation",
   "type": "commonjs",
   "main": "./index.js",
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
   "exports": {
     ".": "./index.js",
     "./client": "./client.js",
