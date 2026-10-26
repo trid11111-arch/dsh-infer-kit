@@ -1,0 +1,32 @@
+{
+  "name": "dsh-infer-kit",
+  "version": "0.1.0",
+  "description": "Inference toolkit for DeepSeek Harness — semantic cache, draft cascade, and JSON validation",
+  "type": "commonjs",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" }
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "inference",
+    "semantic-cache",
+    "speculative-decoding",
+    "draft-cascade"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trid11111-arch/dsh-infer-kit"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.5",
+    "@deepseek-ai/dsh": "^0.2.1-rc.2"
+  }
+}

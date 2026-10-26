@@ -1,0 +1,12 @@
+# Bundle layer for dsh-infer-kit
+- insert:
+    - id: dsh-infer-kit
+      name: dsh-infer-kit
+      config:
+        storePath: 'E:\Obsidian\dsh-infer-kit\store.json'
+        maxEntries: 512
+        draftTimeoutMs: 90000
+        # Draft cascade endpoint (OpenAI-compatible /chat/completions).
+        # Key is NOT stored here — plugin reads DAHO_API_KEY from env.
+        draftEndpoint: 'https://inference.dahl.global/v1/chat/completions'
+        draftModel: 'deepseek-ai/DeepSeek-V4-Flash-0731'
